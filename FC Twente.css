@@ -1,0 +1,154 @@
+/* Algemene instellingen */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: red;
+}
+
+/* Navigatiemenu */
+header {
+    background-color: #d71920;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: white;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Achtergrond */
+.achtergrond {
+    height: 450px;
+    background-image: url("grolsch-veste.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welkom {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+}
+
+.welkom h1 {
+    font-size: 40px;
+}
+
+.knop {
+    background-color: #ae1212;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+/* Nieuws */
+.nieuws {
+    padding: 40px;
+    text-align: center;
+}
+
+.nieuws h1 {
+    color: #fbf8f9;
+}
+
+.nieuws-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.nieuws-item {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nieuws-item img {
+    width: 100%;
+}
+
+/* Wedstrijden */
+.wedstrijden {
+    background-color: #f2f2f2;
+    padding: 40px;
+    text-align: center;
+}
+
+.wedstrijden h1 {
+    color: #d71920;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: #d71920;
+    color: white;
+}
+
+td, th {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+/* Selectie */
+.selectie {
+    padding: 40px;
+    text-align: center;
+}
+
+.selectie h1 {
+    color: #ffffff;
+}
+
+.spelers {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.speler {
+    width: 200px;
+}
+
+.speler img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #d71920;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
